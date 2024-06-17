@@ -1,0 +1,143 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.header {
+  background-color: #ffcd9e;
+  min-height: 592px;
+  height: 100%;
+  display: flex;
+  gap: 400px;
+  width: 100%;
+}
+.footer {
+  background-color: #282828;
+  height: 100%;
+  min-height: 292px;
+}
+.rightchild {
+  width: 100%;
+  max-width: 562px;
+  /* background-color: aqua; */
+  margin-left: 136px;
+  margin-top: 83px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first_text_rightchild {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0px;
+}
+.second_text_rightchild {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 450px;
+  margin: 0px;
+}
+.third_text_rightchild {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.fourth_element_rightchild {
+  display: flex;
+  gap: 25px;
+}
+.input {
+  width: 344px;
+  height: 41px;
+  padding-left: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  outline: none;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  margin: 0px;
+}
+.button {
+  width: 216px;
+  height: 47px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  margin: 0px;
+  border-radius: 8px;
+  background-color: black;
+}
+.fifth_text_rightchild {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  margin-left: 30px;
+  line-height: 25.6px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-right {
+  text-align: right;
+  margin-right: 150px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer-left {
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
